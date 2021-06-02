@@ -1,7 +1,6 @@
 # JavaScript Phase 1 Project Project 
 
 ## Collection of APIs 
-- [https://rapidapi.com/](https://rapidapi.com/) 
 - [https://github.com/public-apis/public-apis](https://github.com/public-apis/public-apis) 
 - [https://apilist.fun/collection/free-apis](https://apilist.fun/collection/free-apis) 
 

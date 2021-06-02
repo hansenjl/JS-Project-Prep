@@ -6,6 +6,11 @@
 - [https://apilist.fun/collection/free-apis](https://apilist.fun/collection/free-apis) 
 
 ## Project Requirements
+- Your app must be a HTML/CSS/JS frontend that accesses data from a public API. All interactions between the client and the API should be handled asynchronously and use JSON as the communication format.
+
+- Your entire app must run on a single page. There should be NO redirects. In other words, your project will contain a single HTML file.
+
+- Some interactivity is required. This interactivity needs to incorporate at least 3 separate event listeners. This could be as simple as adding a "like" button or adding comments. These interactions do not need to persist after reloading the page.
 
 ## Steps 
 1. Find an API you want to use

@@ -43,7 +43,7 @@ Those git commands should be executed frequently while you are building.  Best p
 13. Now, take one JS comment at a time and try to implement it. Take it one small step at a time and don't be afraid to use breakpoints or console.logs to check your progress and variables. 
 14. Once you have all functionality working, look through your code to see if any of your functions feel too long.  A good rule of thumb is to think about how many things a function is doing.  Try to keep each function to 1 task.  Also, if there is anywhere you have written the same code twice, try to refactor it into a function that can be reused.
 15. Revise your README.md file to explain what your project does and how to run it. Here are some helpful sites for making a README.md:  
-- [How to MAke a README](https://www.makeareadme.com/) 
+- [How to Make a README](https://www.makeareadme.com/) 
 - [Quality README examples](https://github.com/matiassingers/awesome-readme) 
 
 16. Write a technical blog post about your project. It could be something you learned while working on the project, a tutorial for how to add in feature in your project, or an explanation of a tough concept in this section. Here are some [Blogging Tips & Pointers](https://docs.google.com/document/d/1n7qfOAcxCbSENcdT9FFAR-xhcyf00AOL1l37Iw2PO-s/edit)

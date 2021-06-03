@@ -1,6 +1,53 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    /* object-fit: cover; */
+}
+
+h1{
+    text-align: center;
+}
+
 .card {
     background-color: aqua;
-    width: 60px;
-    height: 60px;
+    width: 200px;
+    height: 200px;
     border:1px solid black;
+    align-self:  stretch;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
 }
+
+.grid-container { 
+    margin: auto;
+    display: grid;
+    width: 900px;
+    grid-template-columns: auto auto auto auto;
+    /* grid-template-columns: 24% 24% 24% 24%; */
+    grid-template-rows: auto auto auto;
+    column-gap: 10px;
+    row-gap: 15px;
+    grid-template-areas: 
+    "div div div div" 
+    "div div div div"
+    "div div div div"
+    ;
+    padding: 50px;
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+       margin: 0;
+       padding: 0;
+    }
+    .grid-container {
+       width: 100%;
+       padding: 0;
+    }
+ }

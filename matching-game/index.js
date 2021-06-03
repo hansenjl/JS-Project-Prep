@@ -14,7 +14,7 @@ function createCards(data){
     // randomize data 
     data.sort(() => (Math.random() > .5) ? 1 : -1)
     // select the same 5 cards twice  
-    let cards = [...data.slice(0,5), ...data.slice(0,5)]
+    let cards = [...data.slice(0,6), ...data.slice(0,6)]
     //randomize cards 
     cards.sort(() => (Math.random() > .5) ? 1 : -1)
     const board = document.getElementById('board')
@@ -68,7 +68,7 @@ function checkForMatch(){
 
 function checkIfGameOver(){
     // check if all images have been revealed 
-    if(document.querySelectorAll('img').length === 10) {
+    if(document.querySelectorAll('img').length === 12) {
         alert('You won!!!!')
     }
 }

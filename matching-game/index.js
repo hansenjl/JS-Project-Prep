@@ -1,4 +1,3 @@
-document.addEventListener('DOMContentLoaded', init)
 let numOfClicks = 0
 let checkingMatches = false
 let firstImage
@@ -61,9 +60,17 @@ function checkForMatch(){
         // firstImage.removeEventListener('click', (e) => showImage(e, img))
         // secondImage.removeEventListener('click', (e) => showImage(e, img))
         resetGlobals()
+        checkIfGameOver()
     }
     
    
+}
+
+function checkIfGameOver(){
+    // check if all images have been revealed 
+    if(document.querySelectorAll('img').length === 10) {
+        alert('You won!!!!')
+    }
 }
 
 function resetGlobals() {
@@ -78,3 +85,5 @@ function hideImages(){
     resetGlobals()
     
 }
+
+document.addEventListener('DOMContentLoaded', init)

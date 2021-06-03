@@ -3,6 +3,7 @@
 ## Collection of APIs 
 - [https://github.com/public-apis/public-apis](https://github.com/public-apis/public-apis) 
 - [https://apilist.fun/collection/free-apis](https://apilist.fun/collection/free-apis) 
+- [JSON server collection](https://github.com/Dane-Dawson/json-server-collection)
 
 ## Project Requirements
 - Your app must be a HTML/CSS/JS frontend that accesses data from a public API. All interactions between the client and the API should be handled asynchronously and use JSON as the communication format.

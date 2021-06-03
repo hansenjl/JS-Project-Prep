@@ -29,6 +29,7 @@
   git push 
 ``` 
 Those git commands should be executed frequently while you are building.  Best practices would be to add and commit every time you complete a new function. Make sure to create a meaningful git commit message. [This resource](https://chris.beams.io/posts/git-commit/) is a good guide on making commit messages. 
+
 11. Next plan out your project. In your index.js file, write comments describing your goals for your project and the order you will want to complete them. Keep in mind the project requirements. Here is an example: 
 ```JavaScript
   // Let a user input the type of recipe they are looking for

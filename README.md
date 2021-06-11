@@ -61,4 +61,6 @@ Those git commands should be executed frequently while you are building.  Best p
 - [Activity Finder](https://www.youtube.com/watch?v=sBLFe16f03M)
 
 
-19. Finally, practice explaining your code line by line to a friend/classmate/family member. 
+19.  Schedule your project review using this link: [https://go.oncehub.com/PhaseOneJavascriptProjectReview](https://go.oncehub.com/PhaseOneJavascriptProjectReview)
+
+20. Finally, practice explaining your code line by line to a friend/classmate/family member. 
